@@ -18,15 +18,3 @@ $ npm install strong-oracle
 $ npm install oracle
 $ npm install mssql
 
-
-
-Starting an express server:
-
-* Cd into root and npm init
-* set entry point to be your main js file
-* “npm install express - - save”
-*  (if cors is needed) “npm install cors - - save”
-* If it is going to be deployed you use:
-“let PORT = process.env.PORT || 3000;”
-AND
-“app.listen(PORT);”
